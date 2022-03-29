@@ -87,7 +87,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
-# ==================================EfsaneVaves======================================================== 
+# ==================================SahipMusic======================================================== 
 @Client.on_callback_query(filters.regex("cls"))
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfsaneMusicVaves"
+        user.first_name = "SahipMusic"
     usar = user
     wew = usar.id
     try:
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/efsanestar_bot"),
-                InlineKeyboardButton(" Kanal", url=f"https://t.me/Sohbetdestek"),
+                InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/SahipMuzikBotCHANNEL"),
+                InlineKeyboardButton(" Kanal", url=f"https://t.me/SahipMuzikBotSupport"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/efsanestar_bot"),
-                InlineKeyboardButton("📮 Kanal", url=f"https://t.me/Sohbetdestek"),
+                InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/SahipMuzikBotCHANNEL"),
+                InlineKeyboardButton("📮 Kanal", url=f"https://t.me/SahipMuzikBotSupport"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
