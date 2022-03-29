@@ -1,4 +1,4 @@
-# Telegramda yani ben boş işler müdürü :) <> @Mahoaga Tarafından düzenlenen ufak çaplı proje. 
+#@SonSahip
 import os
 import requests
 import aiohttp
